@@ -6,6 +6,11 @@ app.config(function ($stateProvider, $urlRouterProvider) {
 		url: '/helloworld',
 		templateUrl: '../templates/helloworld.html',
 		controller: "helloWorldController"
+	})
+	.state('directives', {
+		url: '/directives',
+		templateUrl: '../templates/directives.html',
+		controller: "directivesController"
 	});
 
 	$urlRouterProvider.otherwise("helloworld");
