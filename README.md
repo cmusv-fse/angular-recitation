@@ -1,4 +1,4 @@
-# angular-recitation-s18
+# angular-recitation
 
 ## Starting the project
 This project does not have a backend, but to simulate loading the pages properly and easily, it requires to start a small node server which simply provides access to the static data.
